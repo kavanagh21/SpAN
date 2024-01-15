@@ -24,6 +24,22 @@ The software works with CSV files exported from moorFLPI V5 Review software. The
 
 Data files should be loaded in under the Data file option on the program window. Once loaded, the graph will populate with the data from the file. You do not need to remove any of the additional information from the CSV file (header etc), these will be automatically disregarded. 
 
-There are a number of options available on the left hand side:
+## Additional options
 
-## Highlight inversions
+### Highlight inversions
+Inflection points will be labelled on the graph. Down points (i.e. low inflection points) will be marked in Cyan, whilst Up points (i.e. high infection points) will be labelled in green. Disregarded inflections will be marked in white. Disregarded inflections occur when the point is invalid; i.e. the inflection is both not preceeded by two points concurrently in the same direction and not followed by two points concurrently in the opposite direction.
+
+### Markers
+You can draw both point markers for data points and slice numbers onto the graph. Enable these options to see the points. 
+
+### XStep
+How many pixels should appear between each point in the X axis. The smaller the number, the closer the points will be together on the graph.
+
+## Show (Up/Down points)
+The box to the right hand side of this option lists all of the inflection points either in the upward or downward direction, depending on the setting in this drop down menu. The values in the listbox can be copied to the clipboard using the button underneath, and then pasted into Excel or any other analysis software.
+
+## Video subsampling (experimental)
+SpAN can use subsampling to create a video based on the up or down points as selected above. It requires that the video frames match up directly with the frame number in the CSV file. Once the video is loaded, the following actions take place: 
+       * The video file is turned into individual image frames
+       * The frames that correspond with the up and down points are selected from the video frames and used to generate a final video of just those points
+       * The resulting video is output to the desktop.
