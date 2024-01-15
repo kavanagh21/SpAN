@@ -1,5 +1,7 @@
 # SpAN
-Span is a (very!) basic analysis tool for Laser Speckle imaging. It is written in VB6 and requires csv data files to be exported from the moor FLPI analysis software. Before loading in the first data file, click on Update in the first tab area to save the default settings for the software to memory. Recommended values:
+Span is a (very!) basic analysis tool for Laser Speckle imaging. It is written in VB6 and requires csv data files to be exported from the moor FLPI analysis software. A compiled version of the software is available here: https://1drv.ms/u/s!AuRTueXYQpFPiaFqc0uRSHg0SYYLPQ?e=KQyu7Z
+
+Before loading in the first data file, click on Update in the first tab area to save the default settings for the software to memory. Recommended values:
 
        Low:                1550
        Hi:                 2550
