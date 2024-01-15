@@ -40,6 +40,6 @@ The box to the right hand side of this option lists all of the inflection points
 
 ## Video subsampling (experimental)
 SpAN can use subsampling to create a video based on the up or down points as selected above. It requires that the video frames match up directly with the frame number in the CSV file. Once the video is loaded, the following actions take place: 
-       * The video file is turned into individual image frames
-       * The frames that correspond with the up and down points are selected from the video frames and used to generate a final video of just those points
-       * The resulting video is output to the desktop.
+* The video file is turned into individual image frames
+* The frames that correspond with the up and down points are selected from the video frames and used to generate a final video of just those points
+* The resulting video is output to the desktop.
